@@ -1,0 +1,801 @@
+*{
+    margin: 0;
+   padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    width:1300px;
+    
+    margin: auto;
+}
+
+icon{Width: 200px;
+float: left;
+height: 70px;}
+
+.menu{
+float: left;
+height: 70px;}
+
+ul{
+display: flex;
+justify-content: center;
+align-items:center;}
+
+ul li{
+list-style: none;
+margin-left: 40px;
+margin-top: 5px;
+font-size: 11px;}
+
+ul li a{
+text-decoration:none;
+color:#000000;
+font-family: Arial;
+font-weight : bold;
+transition: 0.4s ease-in-out}
+
+ul li a:hover{color:deeppink;}
+
+.content{
+    width: 1200px;
+    height: auto;
+    color: black;
+    position :relative}
+
+.content .par{padding-left:20px;
+    padding-bottom: 25px;
+    font-family:arial;
+    letter-spacing: 1.2px;
+    line-height: 30px
+    }
+.content h1{ 
+    font-family: 'Times New Roman'
+        font-size: 50px;
+    padding-left: 20;
+    
+    letter-spacing: : 2px;
+}
+
+body{
+    width: 100%;
+    height: auto;
+  
+    Background color:#00dcc6;
+    }
+
+.content-wrapper{
+    width: 80%;
+    margin: 1%  5% ;
+        position: relative;
+}
+
+.content-wrapper img{
+    width: 90%;
+    
+}
+
+.text-wrapper{
+    width:1000%
+    position : RELATIVE ;
+    margin-top : -50%;
+margin-left: 85%;
+margin-right: 0%}
+
+.text-wrapper h1{
+    color: black
+        font-size: 10vw;
+position:relative}
+
+.text-wrapper p{
+    position: relative
+}
+
+.container{
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left{width: 50%;
+height:600px;
+background:url(Images/1.jpeg) no-repeat center / COVER ;
+border-radius:8px; }
+
+.right{
+    width:50%;
+    min-height: 400px;
+    background-color:#0F5673;
+    color:#FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 8px;
+    margin-left: -20px;
+}
+
+.main{background-color:beige;}
+
+.right h1{ 
+font-size:40px;
+font-weight: lighter;}
+
+.right p{
+    margin: 20px 20px;
+    font-weight: 500px;
+    line-height: 25px;
+}
+.east{width: 50%;
+      height:600px;
+    background: url(Images/EDUCATION%20INRO.png) no-repeat center/cover;
+border-radius:8px;}
+
+.West{
+    width:50%;
+    min-height: 400px;
+    background-color:#0B702B;
+    color:#FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 8px;
+    margin-right: -20px;
+}
+
+.West h1{ 
+font-size:40px;
+font-weight: lighter;}
+
+.West p{
+    margin: 20px 20px;
+    font-weight: 500px;
+    line-height: 25px;
+}
+
+.stuff{
+    width: 95%;
+    max-width: 2000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.West a{
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #FFFFFF;
+    color: black;
+    padding: 20px 30px;
+    display: inline-block;
+    letter-spacing: 5px;
+    border-radius: 5px;
+}
+
+.north{width: 50%;
+      height:600px;
+    background: url(Images/INDUTRY%20INTRO.jpg) no-repeat center/cover;
+border-radius:8px;}
+
+.south{
+    width:50%;
+    min-height: 400px;
+    background-color:#3D2EB9;
+    color:#FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+   border-radius: 8px;
+    margin-left: -100px;
+}
+
+
+
+.south h1{ 
+font-size:40px;
+font-weight: lighter;}
+
+.south p{
+    margin: 20px 20px;
+    font-weight: 500px;
+    line-height: 25px;
+}
+.south a{
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #FFFFFF;
+    color: black;
+    padding: 20px 30px;
+    display: inline-block;
+    letter-spacing: 5px;
+    border-radius: 5px;
+}
+
+.cold{width: 50%;
+      height:600px;
+    background: url(Images/robotics%20w%20humans%20intro.webp) no-repeat center/cover;
+border-radius:8px;}
+
+.hot{
+    width:50%;
+    min-height: 400px;
+    background-color:#F49E4D;
+    color:#FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 8px;
+    margin-right: -20px;
+}
+
+.hot h1{ 
+font-size:40px;
+font-weight: lighter;}
+
+.hot p{
+    margin: 20px 20px;
+    font-weight: 500px;
+    line-height: 25px;
+}
+
+.hot a{
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #FFFFFF;
+    color: black;
+    padding: 20px 30px;
+    display: inline-block;
+    letter-spacing: 5px;
+    border-radius: 5px;
+}
+
+.cloudy{width: 50%;
+      height:600px;
+    background: url(Images/giphy.gif) no-repeat center/cover;
+border-radius:8px;}
+
+.sunny{
+    width:50%;
+    min-height: 400px;
+    background-color:#4BBFCA ;
+    color:#FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 8px;
+    margin-right: -20px;
+}
+
+.sunny h1{ 
+font-size:40px;
+font-weight: lighter;}
+
+.sunny p{
+    margin: 20px 20px;
+    font-weight: 500px;
+    line-height: 25px;
+}
+
+.sunny a{
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #FFFFFF;
+    color: black;
+    padding: 20px 30px;
+    display: inline-block;
+    letter-spacing: 5px;
+    border-radius: 5px;
+}
+
+.laugh{width: 50%;
+      height:600px;
+    background: url(Images/ISASP%20INTRO.jpeg) no-repeat center/cover;
+border-radius:8px;}
+
+.cry{
+    width:50%;
+    min-height: 400px;
+    background-color:#F44D69;
+    color:#FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+   border-radius: 8px;
+    margin-left: -100px;
+}
+
+
+
+.cry h1{ 
+font-size:40px;
+font-weight: lighter;}
+
+.cry p{
+    margin: 20px 20px;
+    font-weight: 500px;
+    line-height: 25px;
+}
+.cry a{
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #FFFFFF;
+    color: black;
+    padding: 20px 30px;
+    display: inline-block;
+    letter-spacing: 5px;
+    border-radius: 5px;
+}
+
+.empty{width: 50%;
+      height:600px;
+    background: url(Images/MEDICINE%20INTRO.jpg) no-repeat center/cover;
+border-radius:8px;}
+
+.full{
+    width:50%;
+    min-height: 400px;
+    background-color:#6FC86C ;
+    color:#FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 8px;
+    margin-right: -20px;
+}
+
+.full h1{ 
+font-size:40px;
+font-weight: lighter;}
+
+.full p{
+    margin: 20px 20px;
+    font-weight: 500px;
+    line-height: 25px;
+}
+
+.full a{
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #FFFFFF;
+    color: black;
+    padding: 20px 30px;
+    display: inline-block;
+    letter-spacing: 5px;
+    border-radius: 5px;
+}
+
+.light{width: 50%;
+      height:600px;
+    background: url(Images/RE%20INTRO%202.png) no-repeat center/cover;
+border-radius:8px;}
+
+.dark{
+    width:50%;
+    min-height: 400px;
+    background-color:#6163AB;
+    color:#FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+   border-radius: 8px;
+    margin-left: -100px;
+}
+
+
+
+.dark h1{ 
+font-size:40px;
+font-weight: lighter;}
+
+.dark p{
+    margin: 20px 20px;
+    font-weight: 500px;
+    line-height: 25px;
+}
+.dark a{
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #FFFFFF;
+    color: black;
+    padding: 20px 30px;
+    display: inline-block;
+    letter-spacing: 5px;
+    border-radius: 5px;
+}
+
+.white {width: 60%;
+      height:600px;
+    background: url(Images/space_tourist.jpg) no-repeat center/cover;
+border-radius:8px;}
+
+.black{
+    width:50%;
+    min-height: 400px;
+    background-color:#6FC86C ;
+    color:#FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 8px;
+    margin-right: -20px;
+}
+
+.black h1{ 
+font-size:40px;
+font-weight: lighter;}
+
+.black p{
+    margin: 20px 20px;
+    font-weight: 500px;
+    line-height: 25px;
+}
+
+.black a{
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #FFFFFF;
+    color: black;
+    padding: 20px 30px;
+    display: inline-block;
+    letter-spacing: 5px;
+    border-radius: 5px;
+}
+
+.poor{width: 60%;
+      height:450px;
+    background: url(Images/WOW-LOGO-FINAL-LAST.jpeg) no-repeat center/cover;
+    
+border-radius:8px;}
+
+.rich{
+    width:40%;
+    min-height: 400px;
+    background-color:#00dcc6;
+    color:#FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+   border-radius: 8px;
+    margin-left: -92px;
+}
+
+
+
+.rich h1{ 
+font-size:40px;
+font-weight: lighter;}
+
+.rich p{
+    margin: 20px 20px;
+    font-weight: 500px;
+    line-height: 25px;
+}
+.rich a{
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #FFFFFF;
+    color: black;
+    padding: 20px 30px;
+    display: inline-block;
+    letter-spacing: 5px;
+    border-radius: 5px;
+}
+
+.HERO{background: #303e45; color:white;
+    width: 100%;}
+
+button{margin: 4px 2px;}
+.btn-1{padding: 15px 32px;Background-color:#e7f5fb;}
+.btn-2{padding: 15px 32px; background-color:#d0ecf7;}
+.btn-3{padding: 15px 32px; background-color:#b8e2f3;}
+.btn-4{padding: 15px 32px; background-color:#a1d9ef}
+.btn-5{padding: 15px 32px; background-color:#69c2e6 }
+.btn-6{padding: 15px 32px; background-color:#4ab6e0;}
+.btn-7{padding: 15px 32px; background-color:#2aa9db;}
+
+.sad{width: 50%;
+height:600px;
+background:url(Images/VACCUM.jpeg) no-repeat center / COVER ;
+border-radius:8px; }
+
+.happy{
+    width:50%;
+    min-height: 400px;
+    background-color:#0F5673;
+    color:#FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 8px;
+    margin-left: -100px;
+}
+
+
+.happy h1{ 
+font-size:40px;
+font-weight: lighter;}
+
+.happy p{
+    margin: 20px 20px;
+    font-weight: 500px;
+    line-height: 25px;
+}
+
+.soft{width: 50%;
+      height:600px;
+    background: url(Images/SMART%20HOME.jpeg) no-repeat center/cover;
+border-radius:8px;}
+
+.hard{
+    width:50%;
+    min-height: 400px;
+    background-color:#0B702B;
+    color:#FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 8px;
+    margin-right: -20px;
+}
+
+.hard h1{ 
+font-size:40px;
+font-weight: lighter;}
+
+.hard p{
+    margin: 20px 20px;
+    font-weight: 500px;
+    line-height: 25px;
+}
+
+.hard a{
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #FFFFFF;
+    color: black;
+    padding: 20px 30px;
+    display: inline-block;
+    letter-spacing: 5px;
+    border-radius: 5px;
+}
+
+.small{width: 50%;
+height:600px;
+background:url(Images/SMART%20CITIES.jpeg) no-repeat center / COVER ;
+border-radius:8px; }
+
+.big{
+    width:50%;
+    min-height: 400px;
+    background-color:#0F5673;
+    color:#FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 8px;
+    margin-left: -100px;
+}
+
+
+.big h1{ 
+font-size:40px;
+font-weight: lighter;}
+
+.big p{
+    margin: 20px 20px;
+    font-weight: 500px;
+    line-height: 25px;
+}
+
+.slow{width: 50%;
+height:600px;
+background:url(Images/VR%20LEARNING.jpeg) no-repeat center / COVER ;
+border-radius:8px; }
+
+.fast{
+    width:50%;
+    min-height: 400px;
+    background-color:#0F5673;
+    color:#FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 8px;
+    margin-left: -100px;
+}
+
+
+.fast h1{ 
+font-size:40px;
+font-weight: lighter;}
+
+.fast p{
+    margin: 20px 20px;
+    font-weight: 500px;
+    line-height: 25px;
+}
+
+.near{width: 50%;
+      height:600px;
+    background: url(Images/SMART%20LEARNING.jpeg) no-repeat center/cover;
+border-radius:8px;}
+
+.far{
+    width:50%;
+    min-height: 400px;
+    background-color:#0B702B;
+    color:#FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 8px;
+    margin-right: -20px;
+}
+
+.far h1{ 
+font-size:40px;
+font-weight: lighter;}
+
+.far p{
+    margin: 20px 20px;
+    font-weight: 500px;
+    line-height: 25px;
+}
+
+.far a{
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #FFFFFF;
+    color: black;
+    padding: 20px 30px;
+    display: inline-block;
+    letter-spacing: 5px;
+    border-radius: 5px;
+}
+
+.thin{width: 50%;
+height:600px;
+background:url(Images/DELIVERY%20DRONES.jpeg) no-repeat center / COVER ;
+border-radius:8px; }
+
+.fat{
+    width:50%;
+    min-height: 400px;
+    background-color:#0F5673;
+    color:#FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 8px;
+    margin-left: -100px;
+}
+
+
+.fat h1{ 
+font-size:40px;
+font-weight: lighter;}
+
+.fat p{
+    margin: 20px 20px;
+    font-weight: 500px;
+    line-height: 25px;
+}
+
+.bad{width: 50%;
+      height:600px;
+    background: url(Images/3D%20PRINTNG%203.jpg) no-repeat center/cover;
+border-radius:8px;}
+
+.good{
+    width:50%;
+    min-height: 400px;
+    background-color:#0B702B;
+    color:#FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 8px;
+    margin-right: -20px;
+}
+
+.good h1{ 
+font-size:40px;
+font-weight: lighter;}
+
+.good p{
+    margin: 20px 20px;
+    font-weight: 500px;
+    line-height: 25px;
+}
+
+.good a{
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #FFFFFF;
+    color: black;
+    padding: 20px 30px;
+    display: inline-block;
+    letter-spacing: 5px;
+    border-radius: 5px;
+}
+
+.fun{width: 50%;
+      height:600px;
+    background: url(Images/3D%20PRINTIG%20HOUSES.jpg) no-repeat center/cover;
+border-radius:8px;}
+
+.hulk{width: 50%;
+      height:600px;
+    background: url(Images/3D%20PRINTING%20ORGANS.jpeg) no-repeat center/cover;
+border-radius:8px;}
+
+.Loki{width: 50%;
+      height:600px;
+    background: url(Images/DRIVERLESS%20CARS.jpeg) no-repeat center/cover;
+border-radius:8px;}
+
+.thor{width: 50%;
+      height:600px;
+    background: url(Images/ROBOTS.jpeg) no-repeat center/cover;
+border-radius:8px;}
+
+.cap{width: 50%;
+      height:600px;
+    background: url(Images/SMART%20LENS.jpeg) no-repeat center/cover;
+border-radius:8px;}
+
+.mat{width: 50%;
+      height:600px;
+    background: url(Images/GENE%20ENGINEERING.jpeg) no-repeat center/cover;
+border-radius:8px;}
+
+.lab{width: 50%;
+      height:600px;
+    background: url(Images/DRIVERLSS%20PUBLIC.jpeg) no-repeat center/cover;
+border-radius:8px;}
+
+.fly{width: 50%;
+      height:600px;
+    background: url(Images/HYPERLOOP.jpeg) no-repeat center/cover;
+border-radius:8px;}
+
+.try{width: 50%;
+      height:600px;
+    background: url(Images/SPACE%20TOURISM.jpeg) no-repeat center/cover;
+border-radius:8px;}
+
+.sat{width: 50%;
+      height:600px;
+    background: url(Images/BARIN.jpeg) no-repeat center/cover;
+border-radius:8px;}
+
+.cat{width: 50%;
+      height:600px;
+    background: url(Images/CYBORGS.jpeg) no-repeat center/cover;
+border-radius:8px;}
+
+.star{width: 50%;
+      height:600px;
+    background: url(Images/RENEWABLE%20ENERGY.jpeg) no-repeat center/cover;
+border-radius:8px;}
