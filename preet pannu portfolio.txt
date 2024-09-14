@@ -1,0 +1,151 @@
+<!doctype html>
+<html>
+    <head>
+    <title>PREET PANNU</title>
+    <link rel="stylesheet" href='Style.css'>
+        </head>
+<body>
+   <div class='main'>
+       <div class='navbar'>
+            <div class='icon'>
+               <center><H1 style='background-color:#303e45; color:white;'>PREET PANNU</H1><H2 style='background-color:#303e45; color:white;'>PORTFOLIO</H2></center>
+           </div>
+           
+             
+                
+           <div>
+               <ul style='background-color:#4AC3F4; color:white; height: 50px;'>
+               <li><a href='about%20me.html'>About Me</a></li>
+               
+               <li><a href="academics.html">Academics</a></li>
+               
+               <centre><li><a href="volunteering.html">Volunteering</a></li></centre>
+               
+               <li><a href="internships.html">Internships</a></li>
+               
+               <li><a href="interests.html">Interests</a></li>
+               
+               <li><a href="sports.html">Sports</a></li>
+                            
+               </ul>
+           </div>
+           
+         
+           <div class='content'>
+           <center><h1>“"</h1></center>
+           </div>
+           <br><br><br>
+           <div class='stuff'>
+               
+               <div class='sunny'>
+                   <h1>ABOUT ME!</h1>
+ <p>I am a high school student living in the UAE, with a passion for studying abroad in the US, Canada, and the UK. My portfolio showcases my academic achievements, extracurricular activities, and interests.<br><br><br><br>
+                   <a href='Education%20(2).html'>Click here to know more</a>
+                   </p>
+                </div>
+               <div class='cloudy'></div>
+           </div>
+           <br><br><br>
+
+<div class='stuff'>
+               <div class='light'>
+               </div>
+               <div class='dark'>
+            
+                   <h1>ACADEMICS</h1>
+                   <p>Currently in Grade 11 studying for SAT and various APs along with CBSE curriculum. Know more about my academic achievements here!
+                   <br><br>
+                   <a href='renewable%20energy.html'>Click here to know more</a></p>
+               </div>
+           </div> 
+           
+
+           <div class='stuff'>
+               
+               <div class='West'>
+                   <h1>VOLUNTEERING</h1>
+                   <p>Always eager to lend a helping hand to the needy. Know more about my contributions to the society here!<br><br><br><br>
+                   <a href='Education%20(2).html'>Click here to know more</a>
+                   </p>
+                   
+               </div>
+               <div class='east'></div>
+           </div>
+           <br><br><br>
+            
+          <div class='stuff'>
+               <div class='north'>
+               </div>
+               <div class='south'>
+            
+                   <h1>INTERNSHIPS</h1>
+                   <p>Experience in the real world is important for growth. Know more about the internships I have completed here! 
+                   <br><br>
+                   <a href='Industry.html'>Click here to know more</a></p>
+               </div>
+           </div> 
+           <br><br><br>
+           
+           <div class='stuff'>
+               
+               <div class='hot'>
+                   <h1>INTERESTS</h1>
+                   <p>Creativity is a mind maze and academics is not all you need in life. Know more about my interests here!<br><br><br><br>
+                       <a href="integrating%20humans%20with%20robots.html">Click here to know more</a>
+                   </p>
+                   
+               </div>
+               <div class='cold'></div>
+           </div>
+           <br><br><br>
+           
+           <div class='stuff'>
+               <div class='laugh'>
+               </div>
+               <div class='cry'>
+            
+                   <h1>SPORTS</h1>
+                   <p>Exercise is important for the body and the soul. Know more about my sporty side here! 
+                   <br><br>
+                   <a href='Intelligent%20Spaces%20amd%20Smart%20Places.html'>Click here to know more</a></p>
+               </div>
+           </div> 
+           <br><br><br>
+           
+           <div class='stuff'>
+               
+               <div class='full'>
+                   <h1>..</h1>
+                   <p>..<br><br>
+                       <a href="Medicine.html">Click here to know more</a>
+                   </p>
+                   
+               </div>
+               <div class='empty'></div>
+           </div>
+           <br><br><br>
+           
+           <div class='stuff'>
+               <div class='light'>
+               </div>
+               <div class='dark'>
+            
+                   <h1>..</h1>
+                   <p>..
+                   <br><br>
+                   <a href='renewable%20energy.html'>Click here to know more</a></p>
+               </div>
+           </div> 
+           
+ <div class='stuff'>
+               
+               <div class='rich'>
+                   <h1>CONTACT ME!</h1>
+                   <p>Email: preetpannu2025@gmail.com
+                   </p>
+                   
+               </div>
+               <div class='empty'></div>
+           </div>    
+</body>
+</html>
